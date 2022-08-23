@@ -8,6 +8,12 @@ h1 {
     padding: 5px;
     margin: 5px;
     color: #f7c6af;
+    font-size: 45px;
+}
+
+h1:hover {
+    color: #8c8c8c;
+    text-decoration: underline;
 }
 
 h2 {
@@ -15,6 +21,9 @@ h2 {
     padding: 5px;
     color: #f7c6af;
     text-align: center;
+    animation-name: titulo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 p {
@@ -25,11 +34,22 @@ p {
 .boton {
     margin: 5px;
     padding: 5px;
+    background-color: #f7c6af;
+    border-radius: 15px;
+}
+
+.boton:hover{
+    background-color:#8c8c8c;
 }
 
 .contImg {
     height: 400px;
     margin: 10px;
+}
+
+img:hover{
+    transform: scale(1.1) translate(10px,10px);
+    transition: 0.8s;
 }
 
 .grid-container {
@@ -38,4 +58,28 @@ p {
     align-items: center;
     justify-items: center;
     justify-content: center;
+}
+
+/* keyframes */
+
+@keyframes titulo {
+    0% {
+        color: #f7c6af;
+    }
+
+    25% {
+        color: #8c8c8c
+    }
+
+    50% {
+        color: #f7c6af;
+    }
+
+    75%{
+        color: #8c8c8c;
+    }
+
+    100% {
+        color: #f7c6af;
+    }
 }
