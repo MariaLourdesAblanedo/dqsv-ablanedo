@@ -11,8 +11,7 @@
 
 .navbar {
     padding: 40px;
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
 }
 
 .navbar-brand {
@@ -29,6 +28,7 @@
 
 .d-block {
     height: 500px;
+    width: 100%;
 }
 
 h1 {
