@@ -4,17 +4,13 @@
     box-sizing: border-box;
 }
 
-.listItem{
-    display: flex;
-    justify-content: space-around;
-}
 
 .fondoColor {
     background-color:#f7c6af !important;
 }
 
 .navbar {
-    padding: 25px;
+    padding: 40px;
     display: flex;
     justify-content: space-between;
 }
