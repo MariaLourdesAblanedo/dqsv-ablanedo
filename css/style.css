@@ -73,10 +73,15 @@ p {
     margin: 10px;
 }
 
+.contImgDos {
+    height: 500px;
+}
+
 img:hover{
     transform: scale(1.1) translate(10px,10px);
     transition: 0.8s;
 }
+
 
 .grid-container {
     display: grid;
@@ -85,6 +90,20 @@ img:hover{
     justify-items: center;
     justify-content: center;
     width: 100% !important;
+}
+
+.fondoUno {
+    background-color:#f7c6af;
+    padding: 5px;
+    margin: 1px;
+}
+
+.button-color{
+    background-color: #f7c6af;
+}
+
+.card-body {
+    background-color: #8c8c8c;
 }
 
 /* keyframes */
