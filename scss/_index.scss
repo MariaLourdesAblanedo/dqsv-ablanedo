@@ -1,0 +1,132 @@
+header {
+
+    .fondoColor {
+        background-color: $color-fondo !important;
+        padding: 30px;
+        width: 100%;
+    }
+
+    nav  {
+         .navbar-brand {
+        color: $color-nav;
+    }
+    }
+}
+
+nav {
+    .nav-link{
+            color: $color-link !important;
+        }
+
+    .nav-item:hover{
+            font-weight: bold;
+        }
+}
+    
+
+main {
+
+    .d-block {
+        height: 500px;
+        width: 100%;
+    }
+
+    h1 {
+        padding: 5px;
+        margin: 5px;
+        color: $color-h1;
+        font-size: 45px;
+
+        &:hover {
+        color: #8c8c8c;
+        text-decoration: underline;
+        }
+    }
+
+    p {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    h2 {
+        margin: 20px;
+        padding: 5px;
+        color: $color-h2;
+        text-align: center;
+        animation-name: titulo;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+
+    .boton {
+            margin: 5px;
+            padding: 5px;
+            background-color: $color-boton;
+            border-radius: 15px;
+
+            &:hover {
+                background-color: color-hover;
+            }
+    }
+
+    img {
+
+        &:hover {
+            transform: scale(1.1) translate(10px,10px);
+            transition: 0.8s;
+        }
+
+    }
+
+    div {
+        
+        .contImg {
+            height: 400px;
+            margin: 10px;
+        }
+}
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        width: 100% !important;
+    }
+}
+
+/* Coleccion */
+
+main {
+    div {
+        .button-color {
+            background-color: $color-button;        
+        }
+
+        .card-body {
+            background-color: $color-card;
+        }
+    }
+}
+
+@keyframes titulo {
+    0% {
+        color: #f7c6af;
+    }
+
+    25% {
+        color: #8c8c8c
+    }
+
+    50% {
+        color: #f7c6af;
+    }
+
+    75%{
+        color: #8c8c8c;
+    }
+
+    100% {
+        color: #f7c6af;
+    }
+}
